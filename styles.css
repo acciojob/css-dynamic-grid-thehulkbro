@@ -1,11 +1,14 @@
 /*  your css code here. If applicable */
 .grid-container{
-	display:flex;
-	justify-content: center;
+	display:grid;
+	grid-gap : 10px 10px;
 }
 .grid-item{
+	display:flex;
+	justify-content: center;
+	align-items: center;
 	display:block;
-	background-color:lightgray;
+	background-color:rgb(211, 211, 211);
 	height:150px;
 	width:200px;
 	border-radius:5px;
